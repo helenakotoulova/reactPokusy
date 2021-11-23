@@ -2,6 +2,7 @@ import Todo from './Components/Todo';
 import Goal from './Components/Gol';
 import Garage from './Components/Garaz';
 import MyForm from './Components/Formular';
+import FavouriteColor from './Components/FavouriteColor';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Goal isGoal={false} />
       <Garage />
       <MyForm />
+      <FavouriteColor />
     </div>
   );
 }

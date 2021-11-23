@@ -20,3 +20,13 @@ function Modal(props) {
 // button je built-in prvek, tzn zna onClick function.
 
 export default Modal;
+
+
+/*
+tady mam nadefinovane u button jejich atribut onClick jako onClick={cancelHandler} a primo zde pak definuji cancelHandler - jde o funkci,
+ktera mi zavola props.onCancel()
+=> pak v Todo.js dam <Modal onCancel={closeModalHandler}/>. 
+
+zatimco u backdropu to mam jinak: <div onClick={props.onCancel}></div>. 
+a pak v Todo.js napisu <Backdrop onCancel={closeModalHandler}/>
+*/
